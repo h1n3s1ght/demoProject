@@ -1,0 +1,6 @@
+2023-01-17 11:47:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'c7673417-77c0-4c96-8268-790ce24eac16' (CUSTOMER: ""ID"" BIGINT NOT NULL)"; SQL statement:
+insert into customer (email, full_name, phone, id) values (?, ?, ?, ?) [22018-214]
+2023-01-17 11:49:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'5b2183ac-47db-4480-be4e-16f439089700' (CUSTOMER: ""ID"" BIGINT NOT NULL)"; SQL statement:
+insert into customer (email, full_name, phone, id) values (?, ?, ?, ?) [22018-214]
